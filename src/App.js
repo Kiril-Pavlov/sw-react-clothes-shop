@@ -8,9 +8,10 @@ import Men from './pages/Men/Men'
 import Kids from './pages/Kids/Kids'
 
 function App() {
+
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Routes>
         <Route path='/' element={<Women/>} />
         <Route path='/men' element={<Men />} />

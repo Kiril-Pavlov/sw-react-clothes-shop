@@ -1,0 +1,21 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarLink{
+    text-transform: uppercase;
+    padding: 4px 16px 32px 16px;
+    text-decoration: none;
+    color: black;
+    font-family:var(--primary-font);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbarLink:hover{
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
