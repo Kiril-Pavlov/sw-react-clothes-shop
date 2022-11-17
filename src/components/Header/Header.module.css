@@ -1,0 +1,10 @@
+.headerContainer{
+    border: 1px solid red;
+    max-width: 1440px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
