@@ -7,3 +7,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.logoContainer{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.logoContainer img{
+    width: 31px;
+    height: 29px;
+}

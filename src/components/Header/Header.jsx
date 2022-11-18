@@ -3,6 +3,8 @@ import Navbar from '../Navbar/Navbar'
 
 import styles from "./Header.module.css"
 
+import logo from "../../assets/logo.png"
+
 export default class Header extends Component {
   render() {
     return (
@@ -10,7 +12,9 @@ export default class Header extends Component {
         <div>
           <Navbar/>
         </div>
-        <div>Logo</div>
+        <div className={styles.logoContainer}>
+          <img src={logo} alt="Logo" />
+        </div>
         <div>Actions</div>
       </header>
     )
