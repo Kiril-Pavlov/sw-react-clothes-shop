@@ -7,9 +7,9 @@ export default class Navbar extends Component {
   render() {
     
   let navLinks = [
-    {linkName:"women",linkTo:"/"},
-    {linkName:"men",linkTo:"/men"},
-    {linkName:"kids",linkTo:"/kids"},
+    {linkName:"all",linkTo:"/"},
+    {linkName:"clothes",linkTo:"/clothes"},
+    {linkName:"tech",linkTo:"/tech"},
   ]
 
     return (

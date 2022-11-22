@@ -1,21 +1,20 @@
 import { Route, Routes } from 'react-router';
 import './App.css';
 
-
 import Header from "./components/Header/Header"
-import Women from './pages/Home';
-import Men from './pages/Men/Men'
-import Kids from './pages/Kids/Kids'
+import All from './pages/Home';
+import Clothes from "./pages/Clothes/Clothes"
+import Tech from "./pages/Tech/Tech"
+
 
 function App() {
-
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Routes>
-        <Route path='/' element={<Women/>} />
-        <Route path='/men' element={<Men />} />
-        <Route path='/kids' element={<Kids/>} />
+        <Route path='/' element={<All />} />
+        <Route path='/clothes' element={<Clothes />} />
+        <Route path='/tech' element={<Tech />} />
       </Routes>
     </div>
   );
